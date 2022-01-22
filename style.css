@@ -1,0 +1,369 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.barra-topo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.links-rapidos {
+  font-weight: 700;
+  font-size: 19px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+  margin: 0 auto 0 auto;
+}
+
+.linha-horizontal {
+  border: 1px solid #ebedef;
+}
+
+.noticia-principal {
+  width: 664px;
+}
+
+.vacinados {
+  font-weight: 700;
+  font-size: 52px;
+  margin-bottom: 29px;
+  margin-right: 42px;
+  line-height: 67px;
+}
+
+.ministros {
+  font-size: 18px;
+  font-weight: 500;
+  color: #303134;
+  margin-bottom: 7px;
+  line-height: 22.5px;
+}
+
+.bandeiras {
+  font-size: 18px;
+  font-weight: 500;
+  color: #303134;
+  margin-bottom: 25px;
+  line-height: 22.5px;
+}
+
+.linha-nas-noticias {
+  width: 624px;
+  border: 1px solid #ebedef;
+}
+
+.noticias-g1-comfoto {
+  width: 625px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.noticias-g1-semfoto {
+  width: 625px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.noticias-pqnas-vermelhas {
+  width: 193px;
+  margin-bottom: 36px;
+  margin-top: 25px;
+}
+
+.imagem-pequena {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+}
+
+.relacao-link-rapido {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  line-height: 17.5px;
+}
+
+.titulos-negrito {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2f3134;
+  margin-bottom: 5px;
+  line-height: 25px;
+}
+
+.textinhos {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2f3134;
+  line-height: 19px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.imagem-media {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+  margin-bottom: 9px;
+}
+
+.noticias-pqnas-verdes {
+  width: 240px;
+  margin-bottom: 42px;
+}
+
+.noticias-pqnas-amarelas {
+  width: 240px;
+  margin-bottom: 58px;
+}
+
+.noticias-esporte {
+  width: 240px;
+  margin-left: 35px;
+  margin-right: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.noticias-gshow {
+  width: 240px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lado-direito {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pagina-toda {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1251px;
+  margin: 34px auto 0 auto;
+}
+
+.linha-vertical {
+  height: 845px;
+  border-right: 1px solid #ebedef;
+}
+
+.red {
+  color: #c4160c;
+}
+
+.blue {
+  color: #1e4b9b;
+}
+
+.darkgreen {
+  color: #006766;
+}
+
+.green {
+  color: #07aa47;
+}
+
+.cartola {
+  color: #e3662b;
+}
+
+.globoplay {
+  color: #fb0735;
+}
+
+.dropz {
+  color: #ff75bb;
+}
+
+.gshow {
+  color: #ec7d00;
+}
+
+.quem {
+  color: #323333;
+}
+
+.receitas {
+  color: #a81d83;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .imagem-pequena {
+    width: 120px;
+    height: 67.37px;
+    margin-right: 13.5px;
+  }
+  .imagem-media {
+    width: 120px;
+    height: 67.37px;
+    margin-right: 13.5px;
+  }
+  .links-rapidos {
+    width: unset;
+    justify-content: space-around;
+  }
+  .logo-desktop {
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+  .blue {
+    display: none;
+  }
+  .darkgreen {
+    display: none;
+  }
+  .cartola {
+    display: none;
+  }
+  .globoplay {
+    display: none;
+  }
+  .dropz {
+    display: none;
+  }
+  .noticia-principal {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 16.5px;
+    width: unset;
+  }
+  .vacinados {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 12px;
+    width: unset;
+  }
+  .ministros {
+    font-size: 18px;
+    color: #cd150b;
+    font-weight: 700;
+    width: unset;
+  }
+  .bandeiras {
+    margin-top: 14px;
+    font-size: 18px;
+    color: #cd150b;
+    font-weight: 700;
+    width: unset;
+  }
+  .noticias-mobile {
+    display: flex;
+    flex-direction: row;
+    width: unset;
+  }
+  .textinhos {
+    width: unset;
+    margin: 4px auto 2px auto;
+  }
+  .lado-esquerdo {
+    width: unset;
+  }
+  .relacao-link-rapido {
+    display: none;
+  }
+  .linha-vertical {
+    display: none;
+  }
+  .linha-nas-noticias {
+    display: none;
+  }
+  .pagina-toda {
+    flex-direction: column;
+    width: unset;
+    margin: 16px auto 0 auto;
+  }
+  .noticias-g1-comfoto {
+    flex-direction: column;
+    margin: 10px 16.5px 0px 16.5px;
+    width: unset;
+    flex-wrap: wrap;
+  }
+  .noticias-g1-semfoto {
+    flex-direction: column;
+    margin: 2px 16.5px;
+    width: unset;
+  }
+  .noticias-esporte {
+    flex-direction: column;
+    margin: 2px 16.5px;
+    width: unset;
+  }
+  .noticias-gshow {
+    flex-direction: column;
+    margin: 0px 16.5px;
+    width: unset;
+  }
+  .lado-direito {
+    flex-direction: column;
+    width: unset;
+  }
+  .noticias-pqnas-vermelhas {
+    margin-top: 4px;
+    width: unset;
+  }
+  .noticias-pqnas-verdes {
+    width: unset;
+  }
+  .noticias-pqnas-amarelas {
+    width: unset;
+  }
+  .noticias-pqnas-vermelhas .titulos-negrito {
+    color: #cd150b;
+    width: unset;
+  }
+  .noticias-pqnas-vermelhas .textinhos {
+    color: #cd150b;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: unset;
+  }
+  .noticias-pqnas-verdes .titulos-negrito {
+    color: #06aa48;
+    width: unset;
+  }
+  .noticias-pqnas-verdes .textinhos {
+    color: #06aa48;
+    width: unset;
+  }
+  .noticias-pqnas-amarelas .titulos-negrito {
+    color: #ff8203;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: unset;
+  }
+  .noticias-pqnas-amarelas .textinhos {
+    color: #ff8203;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    width: unset;
+  }
+}
